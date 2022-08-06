@@ -239,4 +239,22 @@ header nav li a {
         margin-left: auto;
         margin-right: auto;
     }
+    .posts-section .posts-section-inner .posts,
+    .featured-section .fs-item {
+        flex-direction: column;
+    }
+    .fs-header h2 {
+        text-align: center;
+    }
+     .fs-item-left {
+        display: flex;
+        justify-content: center;
+     } 
+    .fs-item .description,
+    .item-meta,
+    .fs-item-right h3,
+    .posts-header {
+        margin: 0 16px;
+    }
+
   }
